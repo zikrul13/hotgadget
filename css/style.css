@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+body{font-family: 'Open Sans', sans-serif;}
+
+a:hover{
+	text-decoration: none
+}
+.navbar{    
+	font-weight: 700;
+    font-size: 18px;
+    color: #ddd;
+    margin-top: 30px; 
+}
+
+.carousel-indicators li{
+	box-sizing: content-box;
+	flex: 0 1 auto;
+	width: 30px;
+	height: 15px;
+	background-color: black;
+	border-radius: 10px;
+	border: 0 !important;
+
+}
+.carousel-indicators .active {
+    opacity: 1;
+    width: 60px;
+    height: 15px;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb220+0,ffb220+0,ffcb00+100 */
+background: rgb(255,178,32); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,178,32,1) 0%, rgba(255,178,32,1) 0%, rgba(255,203,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,178,32,1) 0%,rgba(255,178,32,1) 0%,rgba(255,203,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,178,32,1) 0%,rgba(255,178,32,1) 0%,rgba(255,203,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb220', endColorstr='#ffcb00',GradientType=1 ); /* IE6-9 */
+
+}
+
+.featured-products{
+
+}
+
+.categories-section{
+
+}
+
+.carousel-item{}
+.carousel-item h1{
+	font-size: 40px;
+	font-weight: 700;
+}
+.carousel-item p{
+	font-size: 20px;
+	color: #333;
+	opacity: 0.7;
+}
+.btn-dark{
+	background: #000;
+	font-size: 22px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn-dark img{}
+
+.featured-products{
+	padding: 100px 0 50px;
+}
+.featured-products ul{
+	font-size: 30px;
+	font-weight: 
+}
+.featured-products ul li{}
+.featured-products ul li h1{
+	font-size: 30px;
+	font-weight: 700;
+}
+.featured-products ul li a{
+	color: rgb(255,178,32);
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 30px;
+
+}
+
+.product{
+	box-shadow: 0 20px 50px #0000001c;
+	padding:40px 20px ;
+	text-align: center;
+	border-radius: 10px;
+}
+.product a{  }
+.product a img{}
+.product a h1{
+	color: #333;
+	text-decoration: none;
+	font-size: 30px;
+	font-weight: 600;
+	margin-top: 30px;
+}
+.product h2{
+	font-size: 30px;
+	font-weight: 500;
+	color: #333333c9
+}
+
+
+.categories-section{
+	padding: 50px 0;
+}
+.categories-section h1{
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.categories-section span{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffb220+0,ffb220+0,ffcb00+100 */
+background: rgb(255,178,32); /* Old browsers */
+width: 100px;
+height: 15px;
+display: block;
+border-radius: 30px;
+margin: auto;
+margin-bottom: 50px;
+background: -moz-linear-gradient(left,  rgba(255,178,32,1) 0%, rgba(255,178,32,1) 0%, rgba(255,203,0,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,178,32,1) 0%,rgba(255,178,32,1) 0%,rgba(255,203,0,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,178,32,1) 0%,rgba(255,178,32,1) 0%,rgba(255,203,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb220', endColorstr='#ffcb00',GradientType=1 ); /* IE6-9 */
+}
+.categories-section a{
+	display: block;
+	text-align:center;
+	box-shadow: 0 0 20px rgba(0, 0, 0, .05);
+	border-radius: 10px;
+	padding: 30px 20px;
+	margin-bottom: 30px;
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+}
+.categories-section a h3{
+	font-size: 20px;
+	color: #333;
+	font-weight: 700;
+	margin-top: 20px;
+}
+.categories-section a img{}
+

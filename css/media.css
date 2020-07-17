@@ -1,0 +1,44 @@
+@media (max-width: 1199px){
+	
+}
+@media (max-width: 991px){
+	.navbar-brand img{
+		width: 130px;
+	}
+	.navbar{
+		margin-top: 0px;
+	}
+	.carousel-item h1{
+		font-size: 30px;
+		font-weight: 600;
+	}
+	.carousel-item p{
+		font-size: 18px;
+
+	}
+	.btn-dark{
+		font-size: 16px;
+	}
+	.product a h1{
+		font font-size: 20px;
+		margin-top: 20px;
+	}
+	.product h2{ font-size: 25px; }
+	.product{ margin-bottom: 30px;
+	 }
+	 .product img{max-width: 100px;}
+}
+@media (max-width: 767px){
+	
+	.carousel-item{
+		padding-top: 50px;
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.carousel-item img{
+		max-width: 300px;
+	}
+}
+@media (max-width: 575px){
+	
+}
